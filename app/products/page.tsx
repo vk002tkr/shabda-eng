@@ -2,7 +2,7 @@
 
 import { useMemo, useState, useEffect } from "react";
 import SiteFooter from "../components/SiteFooter";
-import { useSearchParams } from "next/navigation";
+import "./products.css";
 
 type Product = {
   name: string;
@@ -629,23 +629,13 @@ function Arrow() {
 }
 
 export default function ProductsPage() {
-  const searchParams = useSearchParams();
-
-  const requestedCategory = searchParams.get("category");
-
-  const validInitialCategory = categories.some(
-    (item) => item.id === requestedCategory,
-  )
-    ? requestedCategory!
-    : "bolts";
-
-  const [activeCategory, setActiveCategory] =
-    useState(validInitialCategory);
-
+  const [activeCategory, setActiveCategory] = useState("bolts");
   const [search, setSearch] = useState("");
 
   useEffect(() => {
-    const categoryFromUrl = searchParams.get("category");
+    const categoryFromUrl = new URLSearchParams(
+      window.location.search,
+    ).get("category");
 
     if (
       categoryFromUrl &&
@@ -656,7 +646,7 @@ export default function ProductsPage() {
       setActiveCategory(categoryFromUrl);
       setSearch("");
     }
-  }, [searchParams]);
+  }, []);
 
   const category =
     categories.find(
@@ -1048,68 +1038,7 @@ export default function ProductsPage() {
         </div>
       </section>
 
-      <footer className="products-page-footer">
-        <div className="products-page-container products-page-footer-grid">
-          <div>
-            <a href="/" className="products-page-logo">
-              <img
-                src="/images/shabda-logo-white.png"
-                alt="Shabda Engineering"
-              />
-            </a>
-
-            <p>
-              Traders &amp; Manufacturers of Industrial
-              Fasteners.
-              <br />
-              Faridabad, Haryana, India.
-            </p>
-          </div>
-
-          <div className="products-page-footer-column">
-            <strong>Explore</strong>
-
-            <a href="/">Home</a>
-            <a href="/#about">About Us</a>
-            <a href="/products">Products</a>
-            <a href="/#industries">Industries</a>
-          </div>
-
-          <div className="products-page-footer-column">
-            <strong>Contact</strong>
-
-            <a href="/#contact">Get a Quote</a>
-
-            <a href="tel:+919717755079">
-              +91 971 775 5079
-            </a>
-
-            <a href="mailto:info@shabdaengineering.in">
-              info@shabdaengineering.in
-            </a>
-
-            <a
-              href="https://wa.me/919717755079"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              WhatsApp
-            </a>
-          </div>
-        </div>
-
-        <div className="products-page-footer-bottom">
-          <div className="products-page-container">
-            <span>
-              © 2026 Shabda Engineering. All rights reserved.
-            </span>
-
-            <span>
-              Industrial Fastening Solutions
-            </span>
-          </div>
-        </div>
-      </footer>
+      <SiteFooter />
     </main>
   );
 }

@@ -60,7 +60,7 @@ export default function SiteFooter() {
           © 2026 Shabda Engineering. All rights reserved.
         </span>
 
-        <span>Industrial Fastening Solutions</span>
+        <span>Powered & Secured by YNRS Business Solutions</span>
       </div>
     </footer>
   );
