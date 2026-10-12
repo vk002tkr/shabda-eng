@@ -17,7 +17,7 @@ const heroSlides = [
       </>
     ),
     description:
-      "Shabda Engineering is a trusted trading and manufacturing partner for industrial fasteners, serving engineering, manufacturing and industrial applications.",
+      "Shabda Engineering is a trusted manufacturer and supplier of fasteners and machined components for industrial fasteners, serving engineering, manufacturing and industrial applications.",
   },
   {
     image: "/images/shabda-hero-02.jpg",
@@ -451,7 +451,7 @@ ${requirement.trim()}
 
 Thank you.`;
 
-    const whatsappNumber = "919717755079";
+    const whatsappNumber = "919654165174";
 
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
       message,
@@ -717,9 +717,8 @@ Thank you.`;
             </h2>
 
             <p className="large-text">
-              Shabda Engineering is a Faridabad-based trading
-              and manufacturing company focused on industrial
-              fastening solutions.
+              Shabda Engineering is a Faridabad-based manufacturer and supplier of 
+              fasteners and machined components.
             </p>
 
             <p>
@@ -955,7 +954,7 @@ Thank you.`;
 
             <div className="contact-info">
               <a
-                href="tel:+919717755079"
+                href="tel:+919654165174"
                 className="contact-detail"
               >
                 <div className="contact-detail-icon">
@@ -964,12 +963,12 @@ Thank you.`;
 
                 <div>
                   <span>Call Us</span>
-                  <strong>+91 971 775 5079</strong>
+                  <strong>+91 9654165174</strong>
                 </div>
               </a>
 
               <a
-                href="https://wa.me/919717755079"
+                href="https://wa.me/919654165174"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="contact-detail"
@@ -1104,14 +1103,14 @@ Thank you.`;
             <Logo />
 
             <p>
-              Traders &amp; Manufacturers of Industrial
-              Fasteners.
+              Manufacturer and supplier of fasteners 
+              and machined components.
               <br />
               Faridabad, Haryana, India.
             </p>
 
             <div className="footer-contact-links">
-              <a href="tel:+919717755079">
+              <a href="tel:+919654165174">
                 +91 971 775 5079
               </a>
 
@@ -1120,7 +1119,7 @@ Thank you.`;
               </a>
 
               <a
-                href="https://wa.me/919717755079"
+                href="https://wa.me/919654165174"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -1142,10 +1141,10 @@ Thank you.`;
             <strong>Contact</strong>
 
             <a href="#contact">Get a Quote</a>
-            <a href="tel:+919717755079">Call Us</a>
+            <a href="tel:+919654165174">Call Us</a>
 
             <a
-              href="https://wa.me/919717755079"
+              href="https://wa.me/919654165174"
               target="_blank"
               rel="noopener noreferrer"
             >
