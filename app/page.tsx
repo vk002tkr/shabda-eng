@@ -874,7 +874,7 @@ Thank you.`;
             <div className="quality-copy">
               <div className="section-kicker light-kicker">
                 <span />
-                WHY SHABDA
+                WHY SHABDA ENGINEERING
               </div>
 
               <h2>
@@ -1111,7 +1111,7 @@ Thank you.`;
 
             <div className="footer-contact-links">
               <a href="tel:+919654165174">
-                +91 971 775 5079
+                +91 965 416 5174
               </a>
 
               <a href="mailto:info@shabdaengineering.in">
