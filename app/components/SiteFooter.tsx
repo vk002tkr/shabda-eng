@@ -37,6 +37,10 @@ export default function SiteFooter() {
 
           <Link href="/#contact">Get a Quote</Link>
 
+          <a href="tel:+919643276764">
+            +91 964 327 6764
+          </a>
+
           <a href="tel:+919654165174">
             +91 965 416 5174
           </a>

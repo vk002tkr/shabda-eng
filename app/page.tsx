@@ -963,7 +963,7 @@ Thank you.`;
 
                 <div>
                   <span>Call Us</span>
-                  <strong>+91 9654165174</strong>
+                  <strong>+91 9654165174, 9643276764</strong>
                 </div>
               </a>
 
@@ -1112,6 +1112,10 @@ Thank you.`;
             <div className="footer-contact-links">
               <a href="tel:+919654165174">
                 +91 965 416 5174
+              </a>
+              
+              <a href="tel:+919643276764">
+                +91 964 327 6764
               </a>
 
               <a href="mailto:info@shabdaengineering.in">
