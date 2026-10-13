@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useMemo, useState, useEffect } from "react";
@@ -35,7 +34,7 @@ const categories: Category[] = [
     products: [
       {
         name: "Hexagon Head Bolts",
-        image: "/images/products/bolts/hexagon-head-bolts.jpg",
+        image: "/images/products/Bolts/hexagon-head-bolts.jpg",
         description:
           "General-purpose hexagonal head bolts designed for reliable mechanical and industrial fastening.",
         standards: ["DIN 931", "DIN 933", "ISO 4014", "ISO 4017"],
@@ -43,7 +42,7 @@ const categories: Category[] = [
       },
       {
         name: "Full Thread Hex Bolts",
-        image: "/images/products/bolts/full-thread-hex-bolts.jpg",
+        image: "/images/products/Bolts/full-thread-hex-bolts.jpg",
         description:
           "Fully threaded hexagonal bolts suitable for applications requiring thread engagement along the fastening length.",
         standards: ["DIN 933", "ISO 4017"],
@@ -51,7 +50,7 @@ const categories: Category[] = [
       },
       {
         name: "Half Thread Hex Bolts",
-        image: "/images/products/bolts/half-thread-hex-bolts.jpg",
+        image: "/images/products/Bolts/half-thread-hex-bolts.jpg",
         description:
           "Partially threaded hex bolts for applications requiring an unthreaded shank through the joint.",
         standards: ["DIN 931", "ISO 4014"],
@@ -59,7 +58,7 @@ const categories: Category[] = [
       },
       {
         name: "Heavy Hex Bolts",
-        image: "/images/products/bolts/heavy-hex-bolts.jpg",
+        image: "/images/products/Bolts/heavy-hex-bolts.jpg",
         description:
           "Heavy-pattern hex bolts for demanding industrial and structural fastening requirements.",
         standards: ["ASTM specifications", "Project-specific specifications"],
@@ -67,7 +66,7 @@ const categories: Category[] = [
       },
       {
         name: "Flange Bolts",
-        image: "/images/products/bolts/flange-bolts.jpg",
+        image: "/images/products/Bolts/flange-bolts.jpg",
         description:
           "Flanged head bolts providing an integrated bearing surface for fastening assemblies.",
         standards: ["DIN 6921"],
@@ -75,7 +74,7 @@ const categories: Category[] = [
       },
       {
         name: "Carriage Bolts",
-        image: "/images/products/bolts/carriage-bolts.jpg",
+        image: "/images/products/Bolts/carriage-bolts.jpg",
         description:
           "Rounded-head bolts with square necks for secure fastening in suitable assembly applications.",
         standards: ["DIN 603"],
@@ -83,7 +82,7 @@ const categories: Category[] = [
       },
       {
         name: "T-Bolts",
-        image: "/images/products/bolts/t-bolts.jpg",
+        image: "/images/products/Bolts/t-bolts.jpg",
         description:
           "Special-purpose T-slot fastening bolts used where sliding or channel-mounted fastening is required.",
         standards: ["DIN 787", "DIN 186"],
@@ -91,7 +90,7 @@ const categories: Category[] = [
       },
       {
         name: "Anchor & Foundation Bolts",
-        image: "/images/products/bolts/anchor-foundation-bolts.jpg",
+        image: "/images/products/Bolts/anchor-foundation-bolts.jpg",
         description:
           "Bolting solutions for anchoring equipment and structural components to foundations and supporting structures.",
         standards: ["Project-specific specifications", "Application-specific standards"],
@@ -99,7 +98,7 @@ const categories: Category[] = [
       },
       {
         name: "U-Bolts",
-        image: "/images/products/bolts/u-bolts.jpg",
+        image: "/images/products/Bolts/u-bolts.jpg",
         description:
           "U-shaped fastening components used for clamping and securing pipes, tubes and other profiles.",
         standards: ["Application-specific"],
@@ -107,7 +106,7 @@ const categories: Category[] = [
       },
       {
         name: "Eye & Special Bolts",
-        image: "/images/products/bolts/eye-special-bolts.jpg",
+        image: "/images/products/Bolts/eye-special-bolts.jpg",
         description:
           "Special-purpose bolting solutions designed around specific mounting, attachment or engineering requirements.",
         standards: ["Application-specific"],
@@ -126,7 +125,7 @@ const categories: Category[] = [
     products: [
       {
         name: "Hex Nuts",
-        image: "/images/products/nuts/hex-nuts.jpg",
+        image: "/images/products/Nuts/hex-nuts.jpg",
         description:
           "Standard hexagonal nuts for general industrial and engineering fastening assemblies.",
         standards: ["DIN 934", "ISO 4032"],
@@ -134,7 +133,7 @@ const categories: Category[] = [
       },
       {
         name: "Heavy Hex Nuts",
-        image: "/images/products/nuts/heavy-hex-nuts.jpg",
+        image: "/images/products/Nuts/heavy-hex-nuts.jpg",
         description:
           "Heavy-pattern nuts intended for demanding structural and industrial fastening applications.",
         standards: ["ASTM / project specifications"],
@@ -142,7 +141,7 @@ const categories: Category[] = [
       },
       {
         name: "Lock Nuts",
-        image: "/images/products/nuts/lock-nuts.jpg",
+        image: "/images/products/Nuts/lock-nuts.jpg",
         description:
           "Nuts designed to resist loosening under vibration and operating conditions.",
         standards: ["DIN 980", "DIN 982", "DIN 985", "ISO 10511"],
@@ -150,7 +149,7 @@ const categories: Category[] = [
       },
       {
         name: "Nyloc Nuts",
-        image: "/images/products/nuts/nyloc-nuts.jpg",
+        image: "/images/products/Nuts/nyloc-nuts.jpg",
         description:
           "Prevailing-torque nuts incorporating a nylon locking element for secure assemblies.",
         standards: ["DIN 985"],
@@ -158,7 +157,7 @@ const categories: Category[] = [
       },
       {
         name: "Flange Nuts",
-        image: "/images/products/nuts/flange-nuts.jpg",
+        image: "/images/products/Nuts/flange-nuts.jpg",
         description:
           "Flanged nuts offering an integrated bearing surface for suitable fastening applications.",
         standards: ["DIN 6923", "Application-specific"],
@@ -166,7 +165,7 @@ const categories: Category[] = [
       },
       {
         name: "Dome / Cap Nuts",
-        image: "/images/products/nuts/dome-cap-nuts.jpg",
+        image: "/images/products/Nuts/dome-cap-nuts.jpg",
         description:
           "Domed nuts providing a finished appearance and covering the exposed thread end.",
         standards: ["Application-specific"],
@@ -174,7 +173,7 @@ const categories: Category[] = [
       },
       {
         name: "Coupling Nuts",
-        image: "/images/products/nuts/coupling-nuts.jpg",
+        image: "/images/products/Nuts/coupling-nuts.jpg",
         description:
           "Long-form nuts used to join threaded rods or extend threaded connections.",
         standards: ["Application-specific"],
@@ -182,7 +181,7 @@ const categories: Category[] = [
       },
       {
         name: "Special & Custom Nuts",
-        image: "/images/products/nuts/special-custom-nuts.jpg",
+        image: "/images/products/Nuts/special-custom-nuts.jpg",
         description:
           "Requirement-specific nut designs for non-standard industrial and engineering applications.",
         standards: ["Drawing / application-specific"],
@@ -201,7 +200,7 @@ const categories: Category[] = [
     products: [
       {
         name: "Socket Head Cap Screws",
-        image: "/images/products/screws/socket-head-cap-screws.jpg",
+        image: "/images/products/Screws/socket-head-cap-screws.jpg",
         description:
           "Compact high-strength screw design with an internal hex drive for engineering assemblies.",
         standards: ["DIN 912", "ISO 4762"],
@@ -209,7 +208,7 @@ const categories: Category[] = [
       },
       {
         name: "Set Screws / Grub Screws",
-        image: "/images/products/screws/set-screws-grub-screws.jpg",
+        image: "/images/products/Screws/set-screws-grub-screws.jpg",
         description:
           "Headless screws designed to secure components through direct threaded contact.",
         standards: ["DIN 913", "DIN 914", "DIN 915", "DIN 916"],
@@ -217,7 +216,7 @@ const categories: Category[] = [
       },
       {
         name: "Machine Screws",
-        image: "/images/products/screws/machine-screws.jpg",
+        image: "/images/products/Screws/machine-screws.jpg",
         description:
           "Machine screws for threaded-hole fastening in equipment and mechanical assemblies.",
         standards: ["Application-specific"],
@@ -225,7 +224,7 @@ const categories: Category[] = [
       },
       {
         name: "Self-Tapping Screws",
-        image: "/images/products/screws/self-tapping-screws.jpg",
+        image: "/images/products/Screws/self-tapping-screws.jpg",
         description:
           "Screws designed to form or cut their mating thread during installation.",
         standards: ["Application-specific"],
@@ -233,7 +232,7 @@ const categories: Category[] = [
       },
       {
         name: "Self-Drilling Screws",
-        image: "/images/products/screws/self-drilling-screws.jpg",
+        image: "/images/products/Screws/self-drilling-screws.jpg",
         description:
           "Drilling-point screws suitable for fastening applications where pre-drilling may not be required.",
         standards: ["Application-specific"],
@@ -241,7 +240,7 @@ const categories: Category[] = [
       },
       {
         name: "Countersunk Screws",
-        image: "/images/products/screws/countersunk-screws.jpg",
+        image: "/images/products/Screws/countersunk-screws.jpg",
         description:
           "Flush-head screws designed for applications where the head needs to sit level with the surface.",
         standards: ["Application-specific"],
@@ -249,7 +248,7 @@ const categories: Category[] = [
       },
       {
         name: "Button Head Screws",
-        image: "/images/products/screws/button-head-screws.jpg",
+        image: "/images/products/Screws/button-head-screws.jpg",
         description:
           "Low-profile rounded-head screws for applications requiring a compact finished appearance.",
         standards: ["Application-specific"],
@@ -268,7 +267,7 @@ const categories: Category[] = [
     products: [
       {
         name: "Plain Washers",
-        image: "/images/products/washers/plain-washers.jpg",
+        image: "/images/products/Washers/plain-washers.jpg",
         description:
           "General-purpose flat washers used to distribute load beneath fastening components.",
         standards: ["DIN 125", "ISO 7089"],
@@ -276,7 +275,7 @@ const categories: Category[] = [
       },
       {
         name: "Flat Washers",
-        image: "/images/products/washers/flat-washers.jpg",
+        image: "/images/products/Washers/flat-washers.jpg",
         description:
           "Flat bearing washers for improving load distribution and protecting mating surfaces.",
         standards: ["Application-specific"],
@@ -284,7 +283,7 @@ const categories: Category[] = [
       },
       {
         name: "Spring Washers",
-        image: "/images/products/washers/spring-washers.jpg",
+        image: "/images/products/Washers/spring-washers.jpg",
         description:
           "Spring-type washers used in suitable assemblies where resistance to loosening is required.",
         standards: ["DIN 127", "Application-specific"],
@@ -292,7 +291,7 @@ const categories: Category[] = [
       },
       {
         name: "Lock Washers",
-        image: "/images/products/washers/lock-washers.jpg",
+        image: "/images/products/Washers/lock-washers.jpg",
         description:
           "Washer solutions designed to improve fastening security in appropriate applications.",
         standards: ["Application-specific"],
@@ -300,7 +299,7 @@ const categories: Category[] = [
       },
       {
         name: "Fender Washers",
-        image: "/images/products/washers/fender-washers.jpg",
+        image: "/images/products/Washers/fender-washers.jpg",
         description:
           "Large-diameter washers designed to provide a wider load-bearing surface.",
         standards: ["Application-specific"],
@@ -308,7 +307,7 @@ const categories: Category[] = [
       },
       {
         name: "Serrated & Tooth Washers",
-        image: "/images/products/washers/serrated-tooth-washers.jpg",
+        image: "/images/products/Washers/serrated-tooth-washers.jpg",
         description:
           "Locking washer designs with serrated or toothed surfaces for suitable fastening applications.",
         standards: ["Application-specific"],
@@ -316,7 +315,7 @@ const categories: Category[] = [
       },
       {
         name: "Special Washers",
-        image: "/images/products/washers/special-washers.jpg",
+        image: "/images/products/Washers/special-washers.jpg",
         description:
           "Application-specific washer designs manufactured or supplied according to particular requirements.",
         standards: ["Drawing / application-specific"],
@@ -817,9 +816,7 @@ export default function ProductsPage() {
 
                     <div className="products-page-tags">
                       {product.standards.map((standard) => (
-                        <span key={standard}>
-                          {standard}
-                        </span>
+                        <span key={standard}>{standard}</span>
                       ))}
                     </div>
                   </div>
@@ -829,9 +826,7 @@ export default function ProductsPage() {
 
                     <div className="products-page-application-list">
                       {product.applications.map((application) => (
-                        <span key={application}>
-                          {application}
-                        </span>
+                        <span key={application}>{application}</span>
                       ))}
                     </div>
                   </div>
