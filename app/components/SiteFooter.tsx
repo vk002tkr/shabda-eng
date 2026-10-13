@@ -37,8 +37,8 @@ export default function SiteFooter() {
 
           <Link href="/#contact">Get a Quote</Link>
 
-          <a href="tel:+919717755079">
-            +91 971 775 5079
+          <a href="tel:+919654165174">
+            +91 965 416 5174
           </a>
 
           <a href="mailto:info@shabdaengineering.in">
@@ -46,7 +46,7 @@ export default function SiteFooter() {
           </a>
 
           <a
-            href="https://wa.me/919717755079"
+            href="https://wa.me/919654165174"
             target="_blank"
             rel="noopener noreferrer"
           >
