@@ -954,7 +954,7 @@ Thank you.`;
 
             <div className="contact-info">
               <a
-                href="tel:+919654165174"
+                href="tel:+919643276764"
                 className="contact-detail"
               >
                 <div className="contact-detail-icon">
@@ -963,12 +963,13 @@ Thank you.`;
 
                 <div>
                   <span>Call Us</span>
-                  <strong>+91 9654165174, 9643276764</strong>
+                  <strong>+91 96432 76764</strong>
+                  <strong>+91 96541 65174</strong>
                 </div>
               </a>
 
               <a
-                href="https://wa.me/919654165174"
+                href="https://wa.me/919643276764"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="contact-detail"
@@ -1110,12 +1111,12 @@ Thank you.`;
             </p>
 
             <div className="footer-contact-links">
-              <a href="tel:+919654165174">
-                +91 965 416 5174
+              <a href="tel:+919643276764">
+                +91 964 327 6774
               </a>
               
-              <a href="tel:+919643276764">
-                +91 964 327 6764
+              <a href="tel:+919654165174">
+                +91 965 416 5174
               </a>
 
               <a href="mailto:info@shabdaengineering.in">
@@ -1123,7 +1124,7 @@ Thank you.`;
               </a>
 
               <a
-                href="https://wa.me/919654165174"
+                href="https://wa.me/919643276764"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -1145,10 +1146,10 @@ Thank you.`;
             <strong>Contact</strong>
 
             <a href="#contact">Get a Quote</a>
-            <a href="tel:+919654165174">Call Us</a>
+            <a href="tel:+919643276764">Call Us</a>
 
             <a
-              href="https://wa.me/919654165174"
+              href="https://wa.me/919643276764"
               target="_blank"
               rel="noopener noreferrer"
             >
